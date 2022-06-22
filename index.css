@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.login-btn,.signup-btn{
+    background-color: #6d28d9;
+    padding: 8px;
+    border-radius: 9px;
+    color: white;
+    /* padding-left: 2px; */
+    text-decoration: none;
+    padding: .5rem 1rem;
+    display: flex;
+}
+.login-btn:hover,.signup-btn:hover{
+   background-color: transparent;
+   border: #6d28d9;
+   color: black;
+  
+}
+/* -----------------------about-section---------------- */
+.btn-display{
+    display: inline-block;
+    background:  #6d28d9;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+  
+    border: 2px solid  #6d28d9;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    /* border-radius: 21px; */
+    /* padding: 5px 8px; */
+    padding: .5rem 1rem;
+    border-radius: 9px;
+ }
+ .btn-display:hover{
+    color:  #6d28d9;
+    background: none;
+}
+ 
+/* -------------------- */
+.beginer{
+    text-decoration: none;
+    color: white;
+    background-color: #6d28d9;
+    padding: .2rem 0.4rem;
+   
+}
+.beginer:hover{
+    color: #6d28d9;
+    background: none;
+}
+.heart-icon{
+    color: red;
+  
+}
+.star{
+    color: red;
+}
+.card-title:hover{
+    color: #7528d9c2;
+}
+.about-section-text{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.about-section-text span{
+    display: block;
+    color: #8b0505;
+}
+.about_para{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------footer------------- */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+}
+footer span{
+    color: white;
+}
+footer span a{
+    color: crimson;
+}
+footer span a:hover{
+    text-decoration: underline;
+    color: white;
+}
